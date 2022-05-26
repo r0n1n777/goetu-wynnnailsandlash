@@ -41,7 +41,7 @@ $services = [
             'Pink & White'      => [55, 45],
             'Color Powder'      => [50, '45+'],
             'Pink & White Ombre'=> ['60+', '50+'],
-            'Gel Liquid with Gel Polish'    => ['40+', '30+'],
+            'Gel Liquid with Gel Polish'    => ['60+', '45+'],
             'Toe Nail'          => ['50+', ''],
             'SNS Dipping Powder'=> ['55+', '45+']
         ]
@@ -97,24 +97,24 @@ $services = [
         'eyelash-extensions', 
         "We will provide you the extensions needed for your eyelashes. Give those eyes more life than ever!",
         'Menu' => [
-            'Eyelashes'                 => [
-                'Classic' => 110,
-                'Eyelash Cluster (No Refill)' => '45+'
-            ],            
-            'Volume Eyelash'            => [
+            'Classic Eyelashes'             => 110,
+            
+            'Volume Eyelash'                => [
                 'Full Set' => '135+',
                 '$135+ Fill In - 2 Weeks' => '57+',
                 '$57+ Fill In - 3 Weeks' => '67+',
                 '$67+ Fill In - 4 Weeks' => '77+',
                 '$77+ Fill In - 5 Weeks' => 'Start Full Set'
             ],
-            'Mega Volume Eyelash'       => [
+            'Mega Volume Eyelash'           => [
                 'Full Set' => '185',
                 'Fill In - 2 Weeks' => '85+',
                 'Fill In - 3 Weeks' => '95+',
                 'Fill In - 4 Weeks' => '105+',
                 'Fill In - 5 Weeks' => 'Start Full Set'
             ],
+
+            'Eyelash Cluster (No Refill)'   => '45+'
         ]
     ],
 

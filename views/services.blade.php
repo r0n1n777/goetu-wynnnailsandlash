@@ -33,10 +33,12 @@
                             @elseif ($service == 'Eyelash Extensions')
                                 <tr>
                                     <td>
-                                        <b>{{ $menu }}</b>
+                                        <b class="text-decoration-underline">{{ $menu }}</b>
                                     </td>
+                                    @if (!is_array($info))
+                                    <td class="fw-bold">${{ $info }}</td>
+                                    @elseif (is_array($info))
                                     <td></td>
-                                    @if (is_array($info))
                                         @foreach ($info as $name => $price)
                                         <tr>
                                             <td>{{ $name }}</td>
