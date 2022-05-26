@@ -4,7 +4,7 @@
 
 @section('content')
 <h1 class="text-center fw-bold mt-5">Services We Offer & Provide</h1>
-<div class="container-fluid py-5" style="padding-bottom: 0px;" id="home">
+<div class="container-fluid pb-5" style="padding-bottom: 0px;" id="home">
     <div class="row">
         @foreach ($services as $service => $info)
         <div class="col-lg-6 mb-lg-0" style="padding: 10px;">
@@ -14,7 +14,7 @@
                     <h2 class="text-uppercase hover-1-title mb-0 fw-bold">{{ $service }}</h2>
                     <p class="hover-1-description fw-light mb-0">
                         <h5>{{ $info[1] }}</h5>
-                        <a class="btn btn-secondary btn-sm mt-2 fw-bold" href="">
+                        <a class="btn btn-warning btn-lg mt-2 float-end fw-bold" href="#{{$info[0]}}">
                             <i class="bi bi-box-arrow-up-right"></i>&nbsp;SHOW MENU
                         </a>
                     </p>

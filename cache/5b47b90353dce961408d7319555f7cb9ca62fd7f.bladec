@@ -4,7 +4,7 @@
  <div class="row">
  <?php $__currentLoopData = $images; $this->addLoop($__currentLoopData);$this->getFirstLoop();
  foreach($__currentLoopData as $image): $loop = $this->incrementLoopIndices();  ?>
- <div class="col-md-3 mb-4">
+ <div class="col-xs-3 col-sm-3 col-md-3 mb-4">
  <a href="<?php echo (isset($this->assetDict[($image)]))?$this->assetDict[($image)]:$this->baseUrl.'/'.($image); ?>" data-fancybox="images">
  <img class="img-fluid h-100 rounded shadow-sm" style="object-fit: cover; -o-object-fit: cover;" src="<?php echo (isset($this->assetDict[($image)]))?$this->assetDict[($image)]:$this->baseUrl.'/'.($image); ?>">
  </a>

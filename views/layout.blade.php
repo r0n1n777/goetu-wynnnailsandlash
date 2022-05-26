@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=0.65, shrink-to-fit=yes">
         <meta name="description" content="It is our goal to ensure your utmost satisfaction through an attentive staff, professional environment, and outstanding sanitation. We believe in only providing you the best quality of nail care by staying up-to-date with the hightest standards of WYNN Nail & Lash and provide you with excellent services while maintaining a clean, friendly, and relaxing atmosphere.">
         <meta name="keywords" content="wynn nails and lash,nails,lashes,manicure,pedicure,children,eyelash extensions,tinting,permanent make-up,acrylic,nail salon near me arizona,gilbert">
         <meta name="theme-color" content="#CEB0A8">
@@ -15,7 +15,7 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-dark navbar-expand-xl shadow bg-primary sticky-top navigation-clean">
+        <nav class="navbar navbar-dark navbar-expand-xl shadow bg-primary fixed-top navigation-clean">
             <div class="container">
                 <a class="navbar-brand text-dark fw-bold m-0 rounded bg-transparent" href="/" style="background-image: url('resources/img/header-bg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
                     <h3 class="mb-0 p-2 py-4 fw-bold text-light">WYNN NAILS & LASH</h3>
@@ -30,7 +30,7 @@
                 </div>
 
                 <div class="collapse navbar-collapse" id="navcol-1">
-                    <ul class="nav navbar-nav mx-auto">
+                    <ul class="nav navbar-nav mx-auto d-flex">
                         <li class="nav-item"><a class="nav-link fw-bold text-light" href="#home">Home</a></li>
                         <li class="nav-item dropdown"><a class="dropdown-toggle nav-link fw-bold text-white" data-bs-toggle="dropdown" aria-expanded="false" href="#">Services&nbsp;</a>
                             <div class="dropdown-menu" role="menu">
@@ -50,41 +50,45 @@
             </div>
         </nav>
         
-        @yield('content')
+        <div class="container-fluid mt-5 pt-5">
+            @yield('content')
+        </div>
 
         <footer>
             <div class="row border-bottom border-primary pb-3">
-                <div class="col d-flex flex-column justify-content-center align-items-center border-bottom border-primary">
+                <div class="col-sm-12 d-flex flex-column justify-content-center align-items-center border-bottom border-primary">
                     <img src="resources/img/header-bg.jpg" class="rounded-circle shadow mb-2">
-                    <h3 class="mb-0 text-center">
+                    <h3 class="mb-0 text-center text-nowrap">
                         WYNN<span class="mb-0 p-2 text-primary text-center">NAILS & LASH</span>
                     </h3>
                     <div class="my-3 text-center">
                         <span class="text-muted">Business Hours:</span><br>
                         <i class="bi bi-clock"></i>
-                        Mondays-Fridays: 9:30 AM - 7:00 PM <br>
+                        Mondays-Fridays: <br>9:30 AM - 7:00 PM <br>
                         <i class="bi bi-clock"></i>
                         Saturdays: 9:30 AM - 6:00 PM <br>
                         <i class="bi bi-clock"></i>
                         Sundays: 10:00 AM - 5:00 PM
                     </div>
                 </div>
-                <div class="col d-flex flex-column justify-content-center align-items-center border-bottom border-primary mt-3">
+                <div class="col-sm-12 d-flex flex-column justify-content-center align-items-center border-bottom border-primary mt-3">
                     <div class="mb-3 text-center">
                         <span class="text-muted">Business Address:</span><br>
-                        <i class="bi bi-map"></i>
-                        1073 East Baseline Road <br>
-                        STE 104 Gilbert, AZ 85233
+                        <p class="text-white text-nowrap">
+                            <i class="bi bi-map"></i>
+                            1073 East Baseline Road <br>
+                            STE 104 Gilbert, AZ 85233
+                        </p>
                     </div>
                     <div class="mb-3 text-center">
                         <span class="text-muted">Business Contact Number:</span><br>
                         <i class="bi bi-telephone"></i>
-                        <strong>(480) 558 5101</strong>
+                        <strong class="text-white text-nowrap">(480) 558 5101</strong>
                     </div>
                     <div class="mb-3 text-center">
                         <span class="text-muted">Business Email:</span><br>
                         <i class="bi bi-envelope"></i>
-                        <a class="text-decoration-none text-white" href="mailto:contact@wynnnailsandlash.com">
+                        <a class="text-decoration-none text-white text-nowrap" href="mailto:contact@wynnnailsandlash.com">
                             contact@wynnnailsandlash.com
                         </a>
                     </div>
