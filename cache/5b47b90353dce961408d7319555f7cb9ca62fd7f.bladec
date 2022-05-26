@@ -6,7 +6,7 @@
  foreach($__currentLoopData as $image): $loop = $this->incrementLoopIndices();  ?>
  <div class="col-md-3 mb-4">
  <a href="<?php echo (isset($this->assetDict[($image)]))?$this->assetDict[($image)]:$this->baseUrl.'/'.($image); ?>" data-fancybox="images">
- <img class="rounded shadow-sm" style="object-fit: cover; -o-object-fit: cover;" src="<?php echo (isset($this->assetDict[($image)]))?$this->assetDict[($image)]:$this->baseUrl.'/'.($image); ?>">
+ <img class="img-fluid h-100 rounded shadow-sm" style="object-fit: cover; -o-object-fit: cover;" src="<?php echo (isset($this->assetDict[($image)]))?$this->assetDict[($image)]:$this->baseUrl.'/'.($image); ?>">
  </a>
  </div>
  <?php endforeach; $this->popLoop(); $loop = $this->getFirstLoop(); ?>

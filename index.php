@@ -150,7 +150,7 @@ $services = [
     ]
 ];
 
-$gallery_images = glob('resources/img/gallery/'.'*.jpg');
+$gallery_images = glob('resources/img/gallery/'.'*.*');
 
 echo $blade->run('index', ['services' => $services, 'images' => $gallery_images]);
 

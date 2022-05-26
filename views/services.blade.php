@@ -4,7 +4,7 @@
     <div class="container mb-5 bg-light p-0 rounded shadow">
         <div class="row g-0">
             <div class="col">
-                <img src="@asset('resources/img/services/'.$info[0].'.jpg')" class="img-fluid h-100" style="object-fit: cover">
+                <img src="@asset('resources/img/services/'.$info[0].'.jpg')" class="img-fluid h-100" style="object-fit: cover; -o-object-fit: cover;">
             </div>
             <div class="col d-flex flex-column align-items-center">
                 <h1 class="text-start fw-bold pt-3">{{ $service }}</h1>

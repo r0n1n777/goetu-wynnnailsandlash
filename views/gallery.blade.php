@@ -5,7 +5,7 @@
             @foreach($images as $image)
             <div class="col-md-3 mb-4">
                 <a href="@asset($image)" data-fancybox="images">
-                    <img class="rounded shadow-sm" style="object-fit: cover; -o-object-fit: cover;" src="@asset($image)">
+                    <img class="img-fluid h-100 rounded shadow-sm" style="object-fit: cover; -o-object-fit: cover;" src="@asset($image)">
                 </a>
             </div>
             @endforeach

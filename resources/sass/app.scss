@@ -1,5 +1,10 @@
+// Bootstrap
 @import 'variables';
-
 @import '~bootstrap/scss/bootstrap';
-
 @import '~bootstrap-icons/font/bootstrap-icons';
+
+// Collated CSS from existing template
+@import 'collated';
+
+// Added CSS during development
+@import 'custom';

@@ -3,12 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="keywords" content="">
+        <meta name="description" content="It is our goal to ensure your utmost satisfaction through an attentive staff, professional environment, and outstanding sanitation. We believe in only providing you the best quality of nail care by staying up-to-date with the hightest standards of WYNN Nail & Lash and provide you with excellent services while maintaining a clean, friendly, and relaxing atmosphere.">
+        <meta name="keywords" content="wynn nails and lash,nails,lashes,manicure,pedicure,children,eyelash extensions,tinting,permanent make-up,acrylic,nail salon near me arizona,gilbert">
+        <meta name="theme-color" content="#CEB0A8">
 
         <title>Welcome to Wynn Nails and Lash | Gilbert, AZ 85233 United States</title>
 
-        <link rel="icon" href="resources/favicon.ico">
+        <link rel="icon" href="public/favicon.ico">
 
         <link rel="stylesheet" href="public/css/app.css">        
     </head>
@@ -52,8 +53,8 @@
         @yield('content')
 
         <footer>
-            <div class="row">
-                <div class="col d-flex flex-column justify-content-center align-items-center">
+            <div class="row border-bottom border-primary pb-3">
+                <div class="col d-flex flex-column justify-content-center align-items-center border-bottom border-primary">
                     <img src="resources/img/header-bg.jpg" class="rounded-circle shadow mb-2">
                     <h3 class="mb-0 text-center">
                         WYNN<span class="mb-0 p-2 text-primary text-center">NAILS & LASH</span>
@@ -68,7 +69,7 @@
                         Sundays: 10:00 AM - 5:00 PM
                     </div>
                 </div>
-                <div class="col d-flex flex-column justify-content-center align-items-center">
+                <div class="col d-flex flex-column justify-content-center align-items-center border-bottom border-primary mt-3">
                     <div class="mb-3 text-center">
                         <span class="text-muted">Business Address:</span><br>
                         <i class="bi bi-map"></i>
