@@ -1,0 +1,15 @@
+<section id="gallery" class="pb-5 bg-primary">
+ <div class="container">
+ <h1 class="text-center py-5 text-white fw-bold">Our Photo Gallery</h1>
+ <div class="row">
+ <?php $__currentLoopData = $images; $this->addLoop($__currentLoopData);$this->getFirstLoop();
+ foreach($__currentLoopData as $image): $loop = $this->incrementLoopIndices();  ?>
+ <div class="col-md-3 mb-4">
+ <a href="<?php echo (isset($this->assetDict[($image)]))?$this->assetDict[($image)]:$this->baseUrl.'/'.($image); ?>" data-fancybox="images">
+ <img class="rounded shadow-sm" style="object-fit: cover; -o-object-fit: cover;" src="<?php echo (isset($this->assetDict[($image)]))?$this->assetDict[($image)]:$this->baseUrl.'/'.($image); ?>">
+ </a>
+ </div>
+ <?php endforeach; $this->popLoop(); $loop = $this->getFirstLoop(); ?>
+ </div>
+ </div>
+</section>
