@@ -57,7 +57,7 @@
 
  <footer>
  <div class="row border-bottom border-primary pb-3">
- <div class="col-sm-12 d-flex flex-column justify-content-center align-items-center border-bottom border-primary">
+ <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center align-items-center border-bottom border-primary">
  <img src="resources/img/header-bg.jpg" class="rounded-circle shadow mb-2">
  <h3 class="mb-0 text-center text-nowrap">
  WYNN<span class="mb-0 p-2 text-primary text-center">NAILS & LASH</span>
@@ -72,7 +72,7 @@
  Sundays: 10:00 AM - 5:00 PM
  </div>
  </div>
- <div class="col-sm-12 d-flex flex-column justify-content-center align-items-center border-bottom border-primary mt-3">
+ <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center align-items-center border-bottom border-primary mt-3">
  <div class="mb-3 text-center">
  <span class="text-muted">Business Address:</span><br>
  <p class="text-white text-nowrap">
