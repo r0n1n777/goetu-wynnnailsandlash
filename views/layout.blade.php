@@ -106,15 +106,11 @@
                         </a>
 
                         <a href="#" class="text-decoration-none p-2">
-                            <i class="bi bi-twitter fs-1"></i>
+                            <i class="bi bi-instagram fs-1"></i>
                         </a>
 
                         <a href="#" class="text-decoration-none p-2">
-                            <i class="bi bi-linkedin fs-1"></i>
-                        </a>
-
-                        <a href="#" class="text-decoration-none p-2">
-                            <i class="bi bi-github fs-1"></i>
+                            <i class="bi bi-google fs-1"></i>
                         </a>
                     </div>
                 </div>
